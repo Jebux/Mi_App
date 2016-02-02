@@ -22,12 +22,28 @@
 
 }
 
+.fondosignup{
+	background: url("https://pixabay.com/static/uploads/photo/2015/10/12/14/50/calculator-983900_960_720.jpg") no-repeat;
+
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 100%;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: block;
+  left: 0;
+}
+
 
 .welcomeuser{
-	background-image: url("https://pixabay.com/static/uploads/photo/2015/10/12/14/50/calculator-983900_960_720.jpg");	
+		
 	float:left;
 	max-width: 700px;
-	border-radius: 5px;
+	border-radius: 2px;
 	/*border: 1px solid #e4e4e4 !important;*/
 	margin:0px;
 	padding:50px 100px 0px 100px;
@@ -36,6 +52,7 @@
 
 .welcomeuser h2{
 		font-size:3em;
+
 }
 
 .prhase{
@@ -45,6 +62,7 @@
 	padding:10px;
 	font-size:1.5em;
 	border-radius:10px;
+	background:white;
 
 }
 
