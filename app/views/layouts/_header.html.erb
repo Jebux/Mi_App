@@ -15,9 +15,16 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%=link_to "Inicio", root_path%></li>
         <li><%=link_to "Nosotros", about_path%></li>
-        <li><%=link_to "Iniciar Sesión", "#", class:"btn btn-default" %></li>
-        <li><%=link_to "Regístrate", signup_path, class:"btn btn-default" %></li>
-       
+        <li class="hbtn">
+            <%= link_to signup_path do %>
+              <button type="button" class="btn btn-primary btn-sm">Log in</button>
+            <% end %>
+        </li>
+        <li class="hbtn">
+            <%= link_to signup_path do %>
+              <button type="button" class="btn btn-default btn-sm">Reg&iacutestrate</button>
+            <% end %>
+        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
