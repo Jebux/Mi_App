@@ -27,9 +27,25 @@
 
 /* --------------signup-------------------------------*/
 .welcomeuser{
-		
+	background-image:url('/assets/calculadora.jpg');
 	float:left;
-	width: 700px;}
+	width: 670px;
+	height:630px;
+	background-size: 700px 630px;
+	border-radius:5px;
+	margin:0px 10px 10px 10px;
+	}
+.wmargin{
+	margin:19%;
+	border: 1px solid black;
+	border-radius:10px;
+	opacity:0.95;
+	background:#2980b9;
+	padding:3px;
+}
+.wmargin h2{
+	opacity:1.0;
+}
 .signup{
 	float:left;
 	max-width:440px;
@@ -37,8 +53,17 @@
 	border-radius:10px;
 	padding-top:15px;
 	background:#2980b9;}
-.welcomeuser h2{font-size:3em;}
+.titulosignup h2{
+	font-size:4em;
+	font-family:Lobster;
+}
+.titulosignup p{
+	text-align:center;
+	margin-top:-1.3em;
+	font-family:Indie+Flower;
+}
 .prhase{
+	opacity:0.8;
 	border: 1px solid;
 	width:400px;
 	padding:10px;
@@ -46,6 +71,9 @@
 	border-radius:10px;
 	background:white;
 	text-align:center;}
+.Rsignup h2 {
+	font-family:Pacifico;
+}
 .login-form {
 	max-width: 390px;
 	radius: 2px;
