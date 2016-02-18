@@ -24,20 +24,28 @@
 }
 
 /* --------------login--------------------------------*/
+body
+{
+    background: url('http://farm3.staticflickr.com/2832/12303719364_c25cecdc28_b.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
 
 /* --------------signup-------------------------------*/
 .welcomeuser{
-	background-image:url('/assets/calculadora.jpg');
+
 	float:left;
 	width: 670px;
 	height:630px;
 	background-size: 700px 630px;
-	border-radius:5px;
+	border-radius:8px;
 	margin:0px 10px 10px 10px;
 	}
 .wmargin{
 	margin:19%;
-	border: 1px solid black;
+	border: 1px solid #2980b9;
 	border-radius:10px;
 	opacity:0.95;
 	background:#2980b9;
@@ -49,8 +57,8 @@
 .signup{
 	float:left;
 	max-width:440px;
-	border: 1px solid #e4e4e4 !important;
-	border-radius:10px;
+	border: 1px solid #2980b9 !important;
+	border-radius:8px;
 	padding-top:15px;
 	background:#2980b9;}
 .titulosignup h2{
