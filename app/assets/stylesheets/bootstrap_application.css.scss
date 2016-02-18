@@ -4,20 +4,20 @@
 
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
-@font-face {
-  font-family: 'Glyphicons Halflings';
- 
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-}
-
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
 $font-family-sans-serif:"Lato","Helvetica Neue", Helvetica, Arial, sans-serif;
 $navbar-default-bg:white;
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
 
 .center{
 	text-align:center;
 }
 
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('/assets/glyphicons-halflings-regular.eot');
+  src: url('/assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/glyphicons-halflings-regular.woff') format('woff'), url('/assets/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
