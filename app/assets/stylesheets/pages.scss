@@ -32,6 +32,32 @@ body
     margin: 0;
 }
 
+.lmargin{
+	width:360px;
+	margin:auto;
+	border:3px solid #2980b9;
+	padding:15px;
+	border-radius:8px;
+	background:white;
+	opacity:0.9;
+}
+
+.lwuser{
+	background:RGB(255,217,102);
+	text-align:center;
+	-webkit-text-fill-color:RGB(255,217,102) ;
+	-webkit-text-stroke: 1.5px RGB(237,125,49);
+	border:2px solid black;
+	border-radius:4px;
+	height:50px;
+
+}
+
+.lwuser div{
+	margin:auto;
+	margin-top:-10px;
+}
+
 
 /* --------------signup-------------------------------*/
 .welcomeuser{
