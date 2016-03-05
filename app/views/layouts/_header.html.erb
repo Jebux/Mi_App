@@ -15,12 +15,13 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%=link_to "Inicio", root_path%></li>
         <li><%=link_to "Nosotros", about_path%></li>
+        <li><%=link_to "library", library_path%></li>
         <li >
            <p class="hbtn">
             <%= link_to login_path do %>
               <button type="button" class="btn btn-primary">Log in</button>
             <% end %>
-        
+      
       
             <%= link_to signup_path do %>
               <button type="button" class="btn btn-default">Reg&iacutestrate</button>
