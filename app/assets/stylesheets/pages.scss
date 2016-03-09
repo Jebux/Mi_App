@@ -12,15 +12,16 @@
 	outline: none;
 }
 
-
-
-
+/*---------------_header------------------------------*/
+.hbtn{
+	margin-top: 8px;
+}
 
 
 @media screen and (min-width:1200px)
 {
 
-/*---------------_header------------------------------*/
+
 
 
 /*---------------home---------------------------------*/
@@ -29,13 +30,7 @@
 }
 
 /* --------------login--------------------------------*/
-body
-{
-    background: url('http://farm3.staticflickr.com/2832/12303719364_c25cecdc28_b.jpg') fixed;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-}
+
 
 .lmargin{
 	width:360px;
@@ -76,8 +71,9 @@ body
 	border-radius:8px;
 	margin:0px 10px 10px 10px;
 	}
+
 .wmargin{
-	margin:19%;
+	margin:15%;
 	border: 1px solid #2980b9;
 	border-radius:10px;
 	opacity:0.95;
@@ -87,13 +83,15 @@ body
 .wmargin h2{
 	opacity:1.0;
 }
+
 .signup{
 	float:left;
-	max-width:440px;
+	width:440px;
 	border: 1px solid #2980b9 !important;
 	border-radius:8px;
 	padding-top:15px;
 	background:#2980b9;}
+
 .titulosignup h2{
 	font-size:4em;
 	font-family:Lobster;
@@ -116,7 +114,7 @@ body
 	font-family:Pacifico;
 }
 .login-form {
-	max-width: 390px;
+	width: 390px;
 	radius: 2px;
 	align:center;
 	margin:10px;
@@ -169,11 +167,18 @@ form[role=login] {
 	form[role=login] button { font-size: 16px; }
 
 /* --------------library-------------------------------*/
+		.library{
+			position:relative;
+			float:left;
+			display:block;
+		}
 
 		.stand{
 			background-color: 	#a9855d;
 			border-collapse:collapse;
 			border-bottom:5px solid #c2996b;
+			width: 400px; 
+			height: 233px;
 		}
 
 		.standup{
@@ -194,7 +199,7 @@ form[role=login] {
 			background:#D2010B;
 			color:white;
 			border:solid 3px black;
-			font-family:lobster;
+			font-family:Lobster;
 			font-size: 1.5em;
 		}
 
@@ -213,6 +218,15 @@ form[role=login] {
 			float:left;
 			margin-left:-12px;
 		}
+
+		/*.desk{
+			position:relative;
+			float:right;
+			width:200px;
+			height: 466px;
+			background-image: url("/assets/@query-1200px/study.jpg");
+			border:2px black solid;
+		}*/
 
 
 };
