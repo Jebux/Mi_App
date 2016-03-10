@@ -15,3 +15,8 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
+
+<script type="text/javascript">
+function mostrar(){
+document.getElementById('bookin1').style.display = 'block';}
+</script>
