@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
   get "library"  => "pages#library"
 
+  get "indice/algebra" => "pages#algebra"
 
 
   # The priority is based upon order of creation: first created -> highest priority.

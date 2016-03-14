@@ -16,12 +16,13 @@
 //= require turbolinks
 //= require_tree .
 
-var clic =1;
-function mostrar(){
-if(clic==1){
-	document.getElementById('bookin1').style.display = 'block';
-		clic =clic+1;
-	} else{
-		document.getElementById('bookin1').style.display='none';
-	}
-}
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       var a = document.getElementById("help");
+       if(e.style.display == 'block'){
+          e.style.display = 'none'; a.style.display='block'}
+       else{
+          e.style.display = 'block';
+          a.style.display='none'
+			}
+    }
